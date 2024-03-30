@@ -1,0 +1,317 @@
+.contact-link:hover {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.nav-pills svg {
+  height: 20px;
+  filter: invert();
+  margin-right: 10px;
+}
+
+.header-text {
+  font-size: 25px;
+  font-weight: 900;
+  margin-right: 300px;
+  color: orange;
+}
+
+main {
+  height: 150vh;
+  position: static;
+}
+
+.fund {
+  color: black !important;
+}
+
+.nav-item {
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  background-color: orange;
+  color: black;
+}
+
+.hero {
+
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  background-size: cover;
+  margin-bottom: 10px solid lightblue;
+
+
+}
+
+.first-h1 {
+  color: orange;
+  font-weight: 900;
+}
+
+.second-h1 {
+  font-weight: 900;
+}
+
+.background-main {
+  background-image: url(./images/blury\ student.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+
+.hero-text {
+  color: orange;
+  font-weight: 900;
+  font-size: 100px;
+}
+
+.hero-text span {
+  color: black !important;
+}
+
+.hero-text p {
+  font-size: 100px !important;
+
+}
+
+.course-slide {
+  height: 500px;
+  width: 900px;
+  background-color: rgb(245, 240, 240);
+  position: sticky;
+  margin-left: 330px;
+  margin-top: 150px;
+  box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.3);
+  /* Horizontal offset, vertical offset, blur radius, color */
+
+}
+
+.card {
+  border-bottom: 2px solid orange;
+  background-color: rgb(245, 240, 240);
+  margin-bottom: 20px;
+  border: 1px solid rgb(245, 240, 240);
+  box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.3);
+  /* border-top: 2px solid orange; */
+}
+
+.card .btn {
+  background-color: orange !important;
+  color: black;
+}
+
+.card .btn:hover {
+  background-color: black !important;
+  color: orange;
+}
+
+.carousel {
+  height: 200px;
+  width: 600px;
+}
+
+#featured:hover {
+  background-color: black !important;
+  color: orange;
+}
+
+.options {
+  height: 150vh;
+  margin-bottom: 70px;
+}
+
+select {
+  height: 60px;
+  width: 600px;
+  margin-top: 50px;
+}
+
+.center-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Set height to viewport height for full-screen image */
+}
+
+.activity h1 {
+  margin-bottom: 70px;
+}
+
+.center-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+
+
+.page-link {
+  background-color: orange;
+  border: 1px solid orangered;
+  color: black;
+
+}
+
+.page-link:hover {
+  background-color: black;
+  color: orange;
+}
+
+.online-course-chart-background {
+  background-image: url(./images/Premium\ Photo\ _\ Book\ shelf\ in\ library.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 100px;
+}
+
+.chart-overlay {
+
+  /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.10); */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1;
+  background-size: cover;
+  padding-left: 150px;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+.chart-overlay p{
+  font-size: 20px;
+  font-weight: 500;
+  /* margin-right: 50px; */
+}
+.num{
+  margin-left: 20px;
+  margin-top: 20px;
+  font-size: 40px !important;
+}
+.card {
+  transition: transform 0.1s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  /* transform: translateY(-8px);  */
+}
+.mileston-1 {
+  transition: transform 0.3s 
+}
+.mileston-1:hover{
+  transform: translateY(-20px);
+ 
+  /* margin: 20px auto; */
+}
+/* .confrence{
+  margin-left: 10px;
+} */
+.blog .header {
+  display: flex;
+background-color: rgb(245, 240, 240);
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  height: 50px;
+  padding: 0 20px 0 20px;
+} 
+
+
+
+.blog #toggleBtn {
+  cursor: pointer;
+  background-color: orange;
+
+} 
+
+.hidden {
+  display: none;
+}
+.blog span{
+  height: 30px;
+  width: 30px;
+  background: orange;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  /* margin-right: 20px; */
+}
+.blog span:hover{
+  cursor: pointer;
+}
+.blog .confrence{
+  display: flex;
+  margin-left: 15px;
+  background-color: rgb(245, 240, 240);
+  padding: 10px 0 0 10px;
+}
+.confrence h1{
+  height: 60px;
+  width: 60px;
+  background-color: orange;
+  font-size: 20px !important;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+}
+.confrence  h4{
+  font-size: 17px;
+  margin-left: 20px;
+}
+.confrence span{
+  font-size: 15px;
+  font-weight: 500;
+  
+}
+.event .confrence a{
+  color: orange;
+  text-decoration: underline;
+  margin-left: 10px;
+}
+.review-one{
+  display: flex;
+  background-color: rgb(245, 240, 240);
+  height: 107px;
+}
+.review-one img{
+  margin: 10px 0 0 10px;
+}
+footer{
+  height: 700px;
+  width: 100%;
+  background-color: rgb(245, 240, 240);
+  padding-top: 50px;
+}
+footer svg{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+footer li{
+  margin-top: 20px;
+}
+footer h6{
+margin-top: 20px;
+}
+form button:hover{
+  background-color: orange !important;
+  color: black !important;
+}
