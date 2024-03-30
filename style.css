@@ -315,3 +315,7 @@ form button:hover{
   background-color: orange !important;
   color: black !important;
 }
+.video-container {
+  width: 100%; /* Set the width of the container */
+  max-width: 100%; /* Ensure the video doesn't exceed its original width */
+}
