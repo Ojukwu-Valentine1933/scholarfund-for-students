@@ -17,5 +17,14 @@ toggleBtns.forEach((toggleBtn, index) => {
     }
   });
 });
-
+window.addEventListener('scroll', function() {
+  var video = document.getElementById('myVideo');
+  var videoContainer = document.querySelector('.video-container');
+  var rect = videoContainer.getBoundingClientRect();
+  
+  // If the video container is not in the viewport, pause the video
+  if (!(rect.bottom >= 0 && rect.top <= window.innerHeight)) {
+      video.pause();
+  }
+});
 
